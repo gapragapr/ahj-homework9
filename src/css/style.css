@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+.animate-collapse{
+    width: 400px;
+    max-height: 65px;
+    overflow: hidden;
+    padding: 15px;
+    border: 1px solid #000;
+    margin: 0 auto;
+    margin-top: 150px;
+    transition: max-height 1s;
+}
+
+.animate-collapse button{
+    margin-bottom: 30px;
+    padding: 7px;
+}
